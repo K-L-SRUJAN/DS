@@ -8,8 +8,6 @@ struct Student {
 
 int main() {
     struct Student s1;
-    
-    // Input student details
     printf("Enter USN: ");
     scanf("%s", s1.usn);
     printf("Enter Name: ");
@@ -17,7 +15,7 @@ int main() {
     printf("Enter Phone Number: ");
     scanf("%s", s1.phone);
     
-    // Display student details
+
     printf("\nStudent Details:\n");
     printf("USN: %s\n", s1.usn);
     printf("Name: %s\n", s1.name);
