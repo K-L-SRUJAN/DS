@@ -14,7 +14,7 @@ int main(){
         if(top>=size){
             printf("stack full\n");
             printf("");
-        }1
+        }
         top=top+1;
         printf("ENTER THE NUMBER :");
         printf("");
@@ -43,6 +43,7 @@ int main(){
         }
     }
     else{
+        printf("exited");
         break;
     }
     }
