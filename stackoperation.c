@@ -7,14 +7,14 @@ int x;
 int main(){
     int v=0;
     while(v==0){
-        printf("\nenter 1 for push, 2 for pop, 3 for display , any other number to exit: ");
+        printf("\nenter 1 for push, 2 for pop, 3 for display : ");
     int d;
     scanf("%d",&d);
     if(d==1){
         if(top>=size){
             printf("stack full\n");
             printf("");
-        }
+        }1
         top=top+1;
         printf("ENTER THE NUMBER :");
         printf("");
@@ -35,6 +35,7 @@ int main(){
     }
     else if(d==3){
         for(int i=0;i<size;i++){
+            if(top==-1){
                 break;
             }
             printf("%d",arra[i]);
